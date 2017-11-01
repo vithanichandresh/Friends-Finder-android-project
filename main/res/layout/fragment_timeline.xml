@@ -1,0 +1,56 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="topsint.myfriendsfinder.TimelineFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageView_of_profile_in_home"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_default_profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/UserName_in_home"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Vithani Chandresh"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageOnTimeline"
+            android:src="@drawable/ic_default_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@color/colorAccent"
+                android:id="@+id/btnLike"
+                android:layout_width="50dp"
+                android:layout_height="40dp" />
+            <ImageView
+                android:background="@color/Dark_White"
+                android:layout_width="50dp"
+                android:id="@+id/btnComment"
+                android:layout_height="40dp" />
+            <ImageView
+                android:background="@color/colorPrimary"
+                android:id="@+id/btnShare"
+                android:layout_width="50dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
